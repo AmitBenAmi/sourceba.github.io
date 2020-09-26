@@ -354,19 +354,14 @@ https://templatemo.com/tm-516-known
     padding: 5px 0 40px 0;
   }
 
-  .carousel {
-    padding: 0 10%;
-  }
-
   .carousel img {
     width: 100%;
-    /* height: 90vh; */
-    height: 650px;
+    height: 75vh;
   }
 
-  @media (min-width: 768px) {
-    .home-slider .col-md-6 {
-      padding-left: 0;
+  @media (max-width: 768px) {
+    .carousel img {
+      height: 40vh;
     }
   }
 
