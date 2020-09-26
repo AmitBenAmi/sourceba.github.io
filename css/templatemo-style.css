@@ -359,7 +359,7 @@ https://templatemo.com/tm-516-known
     height: 75vh;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 768px) {
     .carousel img {
       height: 40vh;
     }
