@@ -632,12 +632,18 @@ https://templatemo.com/tm-516-known
     color: #3f51b5;
   }
 
-  .tst-image,
-  .tst-author {
+  .tst-author,
+  .tst-text {
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: right;
+  }
+
+  .tst-image {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
   }
 
   .tst-image img {
